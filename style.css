@@ -1,0 +1,243 @@
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: gray;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: gray;
+}
+
+.link-button {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #FF5959;
+    border-radius: 10px;
+
+}
+
+/* top banner Or Main Header section Start */
+.top-banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-area {
+    width: 50vw;
+    height: 60wh;
+    padding-top: 10%;
+    padding-left: 25%;
+    text-align: center;
+}
+
+.text-area h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    color: white;
+}
+
+.text-area p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* top banner Or Main Header section End */
+
+/* Donate Today Section Start From Here */
+.donate-today {
+    width: 950px;
+    height: 650px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+
+.donate-money {
+    display: flex;
+    justify-content: space-around;
+}
+
+.money-card {
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+.money-card-unique {
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 3px solid #FF5959;
+    background-color: rgba(255, 99, 71, 0.137);
+}
+
+.donate-today input {
+    margin-top: 50px;
+    padding: 10px 250px;
+    border: 2px solid gray;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+/* Donate Today Section End Here  */
+
+/* Our Donation Plan Start Here */
+.Donation-plan {
+    width: 1400px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.donation-plan-text {
+    text-align: center;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-card {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.plan-card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(99, 99, 99);
+}
+
+.plan-card1-bg {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.plan-card2-bg {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.plan-card3-bg {
+    background: #FFF4D6;
+}
+
+/* Our Donation Plan End Here */
+/* Our Gallery Section Start From Here */
+.our-gallery {
+    width: 1400px;
+    height: 900px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.gallery-images {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-image {
+    width: 340px;
+    height: 220px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.gallery-image2 {
+    width: 100%;
+    height: 100%;
+}
+
+/* Our Gallery Section End Here */
+
+/* Get My Update Section Start From Here */
+
+.get-my-update {
+    width: 950px;
+    height: 650px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+
+.contact-email {
+    height: 300px;
+    background-color: #FFF4D6;
+}
+
+.contact-email input {
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 120px;
+    font-size: 20px;
+}
+
+/* Get My Update Section End Here  */
+/* Footer Section Start From Here  */
+footer {
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+
+footer h1 {
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-size: 50px;
+    padding-top: 40px;
+    font-weight: 900;
+}
+
+footer p {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+/* Footer Section End Here */
